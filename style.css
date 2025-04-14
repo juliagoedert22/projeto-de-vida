@@ -79,7 +79,22 @@ body {
   }
 } 
 
-.ativo {
+.botao.ativo {
     background-color: var(--botao-ativo); 
     border-bottom: 4px solid var(--verde);
+
+}
+.aba-conteúdo.ativo{ 
+    display:block; 
+}
+.aba-conteúdo{
+    display:nome;
+}
+.aba-texto{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+.aba-titulo-principal{
+    font-size: ;
 }
